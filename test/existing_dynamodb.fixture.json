@@ -1,0 +1,10 @@
+{
+  "UUID":"9509b4de-1f6c-80b7-8145-f9dce1a913fd",
+  "BatchSize":100,
+  "EventSourceArn":"arn:aws:dynamodb:us-east-1:xxxxxx:table/my_dynamo_table/stream/2015-12-03T01:01:02.357",
+  "FunctionArn":"arn:aws:lambda:us-east-1:xxxxxx:function:my_lamdba_handler",
+  "LastModified":"2015-12-03T01:30:00.000Z",
+  "LastProcessingResult":"No records processed",
+  "State":"Enabled",
+  "StateTransitionReason":"User action"
+}

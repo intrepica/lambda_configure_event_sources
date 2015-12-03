@@ -1,0 +1,34 @@
+{
+  "name": "@literacyplanet/lambda_configure_event_sources",
+  "version": "1.0.0",
+  "description": "Creates, updates and deletes lambda event sources (dynamodb, kinesis)",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intrepica/lambda_configure_event_sources"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "dynamodb",
+    "kinesis"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "aws-sdk": "^2.2.20",    
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.4",
+    "nock": "^2.12.0",
+    "proxyquire": "^1.4.0",
+    "sinon": "^1.14.1",
+    "istanbul": "^0.3.17"
+  }
+}

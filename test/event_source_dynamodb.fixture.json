@@ -1,0 +1,6 @@
+{
+  "EventSourceArn": "arn:aws:dynamodb:us-east-1:xxxxxx:table/my_dynamo_table/stream/2015-12-03T01:01:02.357",
+  "StartingPosition": "TRIM_HORIZON",
+  "Enabled": true,
+  "BatchSize": 1
+}

@@ -1,0 +1,7 @@
+{
+  "BatchSize":1,
+  "Enabled":true,
+  "EventSourceArn":"arn:aws:dynamodb:us-east-1:xxxxxx:table/my_dynamo_table/stream/2015-12-03T01:01:02.357",
+  "FunctionName":"my_lamdba_handler",
+  "StartingPosition":"TRIM_HORIZON"
+}
