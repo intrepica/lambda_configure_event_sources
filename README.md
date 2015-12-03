@@ -1,4 +1,4 @@
-##AWS Lambda Functions
+##AWS configure Lambda events
 
 Creates, updates and deletes lambda event sources (dynamodb, kinesis)
 
@@ -27,7 +27,7 @@ npm install @literacyplanet/lambda_configure_event_source --save
 
 ####./index.js
 
-```json
+```javascript
 var configureEvents = require('@literacyplanet/lambda_configure_event_source');
 var eventSources = require('./event_sources.json');
 
