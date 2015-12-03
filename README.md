@@ -2,6 +2,10 @@
 
 Creates, updates and deletes lambda event sources (dynamodb, kinesis)
 
+[![Build Status](https://semaphoreci.com/api/v1/projects/748d1a07-7e3d-4542-8442-b90702ad8749/622270/badge.svg)](https://semaphoreci.com/lp/lambda_configure_event_sources)
+
+[![Coverage Status](https://coveralls.io/repos/intrepica/lambda_configure_event_sources/badge.svg?branch=master&service=github)](https://coveralls.io/github/intrepica/lambda_configure_event_sources?branch=master)
+
 ###Setup
 
 ```sh
