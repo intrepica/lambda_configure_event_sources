@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Creates, updates and deletes lambda event sources (dynamodb, kinesis)",
   "main": "index.js",
-  "author": "",
+  "author": "Tim Fairbrother",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "nock": "^2.12.0",
     "proxyquire": "^1.4.0",
     "sinon": "^1.14.1",
+    "coveralls": "^2.11.4",
     "istanbul": "^0.3.17"
   }
 }
