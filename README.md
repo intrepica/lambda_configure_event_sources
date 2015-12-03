@@ -9,7 +9,7 @@ Creates, updates and deletes lambda event sources (dynamodb, kinesis)
 ###Setup
 
 ```sh
-npm install @literacyplanet/lambda_configure_event_source --save
+npm install @literacyplanet/lambda_configure_event_sources --save
 ```
 
 ####./event_sources.json
